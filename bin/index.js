@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import GeoJSON from 'ol/format/GeoJSON.js';
 import {fromLonLat, toLonLat, transformExtent} from 'ol/proj.js';
 import parseArgs from 'minimist';
