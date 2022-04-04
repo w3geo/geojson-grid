@@ -1,0 +1,21 @@
+{
+  "name": "geojson-grid",
+  "version": "1.0.0",
+  "description": "GeoJSON point grid creator",
+  "keywords": [
+    "cli",
+    "geojson",
+    "grid"
+  ],
+  "bin": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Hocevar<andreas.hocevar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "ol": "^6.14.1"
+  }
+}
