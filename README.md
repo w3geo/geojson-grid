@@ -10,6 +10,6 @@ installs the script globally.
 
 Example:
 
-    --bounds=15.8,47.8,16,48 --cellsize=500 > test.geojson
+    geojson-grid --bounds=15.8,47.8,16,48 --cellsize=500 > test.geojson
 
 creates a GeoJSON and writes it to `test.geojson`.
